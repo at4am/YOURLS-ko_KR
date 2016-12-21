@@ -13,6 +13,7 @@ YOURLS를 한국어화 하려면 다음 단계를 진행해주세요.
  ** See http://yourls.org/translations for more information */
 define( 'YOURLS_LANG', '' ); //다음 부분을 define( 'YOURLS_LANG', 'ko_KR' );로 변경해 주세요
 ```
+
 2. `/user/languages` 디렉토리에 번역 파일인 `ko_KR.po`와 `ko_KR.mo`를 옮겨주세요.
 
 ## 라이센스
