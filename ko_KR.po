@@ -1,0 +1,1429 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YOURLS 1.7\n"
+"POT-Creation-Date: 2016-12-19 14:18+0900\n"
+"PO-Revision-Date: 2016-12-21 19:19+0900\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
+"yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
+"yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
+"yourls_nx_noop:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Last-Translator: at4am <mail@4am.kr>\n"
+"Language: ko_KR\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: yourls-infos.php:204
+#, php-format
+msgid "Statistics for %s"
+msgstr "%s에 대한 통계"
+
+#: yourls-infos.php:211 admin/index.php:15 admin/index.php:34
+#: admin/index.php:93 includes/functions-html.php:209
+#: includes/functions-html.php:221 includes/functions-html.php:464
+#: includes/functions-html.php:626
+msgid "Short URL"
+msgstr "단축 URL"
+
+#: yourls-infos.php:227
+msgid "Aggregate stats for duplicate short URLs"
+msgstr "중복된 단축 URL에 대한 집계"
+
+#: yourls-infos.php:229 includes/functions-html.php:464
+msgid "Long URL"
+msgstr "긴 URL"
+
+#: yourls-infos.php:235 yourls-infos.php:246
+msgid "Traffic statistics"
+msgstr "트래픽 통계"
+
+#: yourls-infos.php:236 yourls-infos.php:432
+msgid "Traffic location"
+msgstr "트래픽 위치"
+
+#: yourls-infos.php:237 yourls-infos.php:469
+msgid "Traffic sources"
+msgstr "트래픽 소스"
+
+#: yourls-infos.php:239 yourls-infos.php:539 includes/functions-html.php:505
+#: includes/functions-html.php:506
+msgid "Share"
+msgstr "공유하기"
+
+#: yourls-infos.php:254 yourls-infos.php:294
+msgid "Last 24 hours"
+msgstr "지난 24시간"
+
+#: yourls-infos.php:255 yourls-infos.php:296
+msgid "Last 7 days"
+msgstr "지난 7일"
+
+#: yourls-infos.php:256 yourls-infos.php:298
+msgid "Last 30 days"
+msgstr "지난 30일"
+
+#: yourls-infos.php:257 yourls-infos.php:300
+msgid "All time"
+msgstr "전체 기간"
+
+#: yourls-infos.php:309
+#, php-format
+msgid "Number of hits : %s"
+msgstr "히트 수: %s"
+
+#: yourls-infos.php:332
+msgid "Historical click count"
+msgstr "이전 클릭 수"
+
+#: yourls-infos.php:338
+#, php-format
+msgid "about 1 day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "약 %s일 전"
+msgstr[1] "약 %s일 전"
+
+#. //translators: eg Short URL created on March 23rd 1972
+#: yourls-infos.php:341
+#, php-format
+msgid "Short URL created on %s"
+msgstr "단축 URL이 %s에 생성됨"
+
+#: yourls-infos.php:356 yourls-infos.php:363
+#, php-format
+msgid "%s per day"
+msgstr "%s / 일"
+
+#: yourls-infos.php:359
+#, php-format
+msgid "%s per hour"
+msgstr "%s / 시간"
+
+#: yourls-infos.php:366
+#, php-format
+msgid "%s hit"
+msgid_plural "%s hits"
+msgstr[0] "1 히트"
+msgstr[1] "%s 히트"
+
+#: yourls-infos.php:373
+msgid "Best day"
+msgstr "가장 많은 날"
+
+#. //translators: eg. 43 hits on January 1, 1970
+#: yourls-infos.php:380
+#, php-format
+msgid "<strong>%1$s</strong> hit on %2$s"
+msgid_plural "<strong>%1$s</strong> hits on %2$s"
+msgstr[0] "%2$s 에 <strong>%1$s</strong> 히트"
+msgstr[1] "%2$s 에 <strong>%1$s</strong> 히트"
+
+#: yourls-infos.php:381 yourls-infos.php:443
+msgid "Click for more details"
+msgstr "자세한 옵션을 보려면 클릭하세요"
+
+#: yourls-infos.php:387 yourls-infos.php:390
+#, php-format
+msgid "Year %s"
+msgstr "%s 년"
+
+#: yourls-infos.php:409 yourls-infos.php:447
+#, php-format
+msgid "1 hit"
+msgid_plural "%s hits"
+msgstr[0] "1 히트"
+msgstr[1] "%s 히트"
+
+#: yourls-infos.php:426
+msgid "No traffic yet. Get some clicks first!"
+msgstr "아직 트래픽이 없습니다. 먼저 클릭해 주세요!"
+
+#: yourls-infos.php:441
+msgid "Top 5 countries"
+msgstr "상위 5 개국"
+
+#: yourls-infos.php:454
+msgid "Overall traffic"
+msgstr "전체 트래픽"
+
+#: yourls-infos.php:463
+msgid "No country data."
+msgstr "국가 정보가 없음."
+
+#: yourls-infos.php:478
+msgid "Referrer shares"
+msgstr "리퍼러 공유"
+
+#: yourls-infos.php:481
+msgid "Others"
+msgstr "나머지"
+
+#: yourls-infos.php:485 yourls-infos.php:518
+msgid "Referrers"
+msgstr "리퍼러"
+
+#: yourls-infos.php:492 yourls-infos.php:502
+msgid "(details)"
+msgstr "(자세히)"
+
+#: yourls-infos.php:502
+msgid "Various:"
+msgstr "다양한 속성:"
+
+#: yourls-infos.php:516
+msgid "Direct vs Referrer Traffic"
+msgstr "직접 vs 리퍼러 트래픽"
+
+#: yourls-infos.php:518
+msgid "Direct"
+msgstr "직접"
+
+#: yourls-infos.php:520
+msgid "Direct traffic:"
+msgstr "직접 트래픽:"
+
+#: yourls-infos.php:520 yourls-infos.php:521
+#, php-format
+msgid "<strong>%s</strong> hit"
+msgid_plural "<strong>%s</strong> hits"
+msgstr[0] "<strong>%s</strong> 히트"
+msgstr[1] "<strong>%s</strong> 히트"
+
+#: yourls-infos.php:521
+msgid "Referrer traffic:"
+msgstr "리퍼러 트래픽:"
+
+#: yourls-infos.php:530
+msgid "No referrer data."
+msgstr "리퍼러 데이터가 없습니다."
+
+#: yourls-infos.php:541
+msgid "Short link"
+msgstr "단축 링크"
+
+#: yourls-infos.php:541 includes/functions-html.php:359
+msgid "Quick Share"
+msgstr "빠른 공유"
+
+#: admin/index.php:13 admin/index.php:38 admin/index.php:97
+#: includes/functions-html.php:210 includes/functions-html.php:222
+msgid "URL"
+msgstr "URL"
+
+#: admin/index.php:42 includes/functions-html.php:211
+#: includes/functions-html.php:464
+msgid "Title"
+msgstr "제목"
+
+#: admin/index.php:46 admin/index.php:105
+msgid "IP Address"
+msgstr "IP 주소"
+
+#: admin/index.php:50
+#, php-format
+msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
+msgstr "<strong>%2$s</strong>에서 <strong>%1$s</strong>을(를) 찾는 중입니다."
+
+#: admin/index.php:101 includes/functions-html.php:223
+#: includes/functions-html.php:628
+msgid "Date"
+msgstr "날짜"
+
+#: admin/index.php:109 includes/functions-html.php:225
+#: includes/functions-html.php:630
+msgid "Clicks"
+msgstr "클릭"
+
+#: admin/index.php:187 admin/index.php:198 admin/index.php:209
+#, php-format
+msgid "Short URL created, but could not redirect to %s !"
+msgstr ""
+"단축 URL이 생성되었습니다. 하지만 %s로 리다이렉트 되지 못하고 있습니다!"
+
+#: admin/index.php:219
+msgid "Unknown \"Share\" bookmarklet"
+msgstr "알려지지 않은 \"공유\" 북마크"
+
+#: admin/index.php:272
+#, php-format
+msgid ""
+"Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
+"of <strong class=\"increment\">%3$s</strong> URLs"
+msgstr ""
+"전체 <strong class=\"increment\">%3$s</strong> URL 중 <strong>%1$s</strong> "
+"부터 <strong class=\"increment\">%2$s</strong> 까지의 URL 출력"
+
+#: admin/index.php:274
+#, php-format
+msgid "counting <strong>1</strong> click"
+msgid_plural "counting <strong>%s</strong> clicks"
+msgstr[0] "<strong>1</strong> 클릭이 집계 중"
+msgstr[1] "<strong>%s</strong> 클릭이 집계 중"
+
+#: admin/index.php:277
+#, php-format
+msgid ""
+"Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>"
+"%2$s</strong> clicks, and counting!"
+msgstr ""
+"총 <strong class=\"increment\">%1$s</strong> 링크, <strong>%2$s</strong> 클"
+"릭 및 집계를 추적하고 있습니다!"
+
+#: admin/index.php:337
+msgid "No URL"
+msgstr "URL이 없음"
+
+#: admin/install.php:13 admin/install.php:18
+#, php-format
+msgid "%s version is too old. Ask your server admin for an upgrade."
+msgstr "%s 버전은 너무 오래되었습니다. 관리자에게 업그레이드를 요청하세요."
+
+#: admin/install.php:24
+msgid "YOURLS already installed."
+msgstr "YOURLS가 이미 설치되었습니다."
+
+#: admin/install.php:35
+msgid "File <tt>.htaccess</tt> successfully created/updated."
+msgstr "<tt>.htaccess</tt> 파일이 성공적으로 생성/업데이트 되었습니다."
+
+#: admin/install.php:37
+msgid ""
+"Could not write file <tt>.htaccess</tt> in YOURLS root directory. You will "
+"have to do it manually. See <a href=\"http://yourls.org/htaccess\">how</a>."
+msgstr ""
+"YOURLS 루트 디렉토리에 있는 <tt>.htaccess</tt> 파일을 작성할 수 없습니다. 해"
+"당 파일을 수동으로 작성해야 합니다. 해당 작업을 <a href=\"http://yourls.org/"
+"htaccess\">어떻게</a> 하는지 확인하세요."
+
+#: admin/install.php:50 admin/install.php:71
+msgid "Install YOURLS"
+msgstr "YOURLS 설치하기"
+
+#: admin/install.php:74
+msgid "YOURLS Administration Page"
+msgstr "YOURLS 관리 페이지"
+
+#: admin/plugins.php:38
+msgid "Unsupported action"
+msgstr "지원 되지 않는 작업입니다"
+
+#: admin/plugins.php:42
+msgid "No plugin specified, or not a valid plugin"
+msgstr "플러그인이 선택되지 않았거나, 유효한 플러그인이 아닙니다."
+
+#: admin/plugins.php:51
+msgid "Plugin has been activated"
+msgstr "플러그인이 활성화 되었습니다"
+
+#: admin/plugins.php:53
+msgid "Plugin has been deactivated"
+msgstr "플러그인이 비활성화 되었습니다"
+
+#: admin/plugins.php:58 includes/functions-html.php:745
+msgid "Manage Plugins"
+msgstr "플러그인 관리"
+
+#: admin/plugins.php:63
+msgid "Plugins"
+msgstr "플러그인"
+
+#: admin/plugins.php:70
+#, php-format
+msgid "%s plugin"
+msgid_plural "%s plugins"
+msgstr[0] "%s개의 플러그인"
+msgstr[1] "%s개의 플러그인"
+
+#. //translators: "you have '3 plugins' installed and '1' activated"
+#: admin/plugins.php:74
+#, php-format
+msgid ""
+"You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
+"strong> activated"
+msgstr ""
+"현재 <strong>%1$s</strong>이 설치되었고, <strong>%2$s</strong>개는 활성화 되"
+"었습니다"
+
+#: admin/plugins.php:79
+msgid "Plugin Name"
+msgstr "플러그인 이름"
+
+#: admin/plugins.php:80
+msgid "Version"
+msgstr "버전"
+
+#: admin/plugins.php:81
+msgid "Description"
+msgstr "소개"
+
+#: admin/plugins.php:82
+msgid "Author"
+msgstr "작성자"
+
+#: admin/plugins.php:83
+msgid "Action"
+msgstr "작업"
+
+#: admin/plugins.php:118
+msgid "Deactivate"
+msgstr "비활성화"
+
+#: admin/plugins.php:122
+msgid "Activate"
+msgstr "활성화"
+
+#: admin/plugins.php:133
+#, php-format
+msgid "plugin file location: %s"
+msgstr "플러그인 파일 위치: %s"
+
+#: admin/plugins.php:150
+msgid "Toggle active/inactive plugins"
+msgstr "플러그인 활성화/비활성화 토글"
+
+#: admin/plugins.php:157
+msgid ""
+"If something goes wrong after you activate a plugin and you cannot use "
+"YOURLS or access this page, simply rename or delete its directory, or rename "
+"the plugin file to something different than <code>plugin.php</code>."
+msgstr ""
+"만약 플러그인 활성화 이후 문제가 있어 YOURLS가 사용 불가능 또는 이 페이지에 "
+"접근할 수 없다면, 디렉토리명을 변경 또는 삭제하거나 플러그인 파일명을 "
+"<code>plugin.php</code>와는 다른 것으로 변경하세요."
+
+#: admin/plugins.php:159
+msgid "More plugins"
+msgstr "더 많은 플러그인"
+
+#: admin/plugins.php:161
+msgid ""
+"For more plugins, head to the official <a href=\"http://yourls.org/pluginlist"
+"\">Plugin list</a>."
+msgstr ""
+"더 많은 플러그인을 보려면, 공식 <a href=\"http://yourls.org/pluginlist\">플러"
+"그인 목록</a>을 확인하세요."
+
+#: admin/tools.php:6
+msgid "Cool YOURLS Tools"
+msgstr "멋진 YOURLS 도구"
+
+#: admin/tools.php:13
+msgid "Bookmarklets"
+msgstr "북마크"
+
+#: admin/tools.php:15
+msgid ""
+"YOURLS comes with handy <span>bookmarklets</span> for easier link shortening "
+"and sharing."
+msgstr ""
+"YOURLS는  쉬운 링크 단축과 공유를 위해 편리한<span>북마크</span>를 지원합니"
+"다."
+
+#: admin/tools.php:17
+msgid "Standard or Instant, Simple or Custom"
+msgstr "일반 또는 인스턴트, 간편 또는 사용자 정의"
+
+#: admin/tools.php:20
+msgid ""
+"The <span>Standard Bookmarklets</span> will take you to a page where you can "
+"easily edit or delete your brand new short URL."
+msgstr ""
+"<span>일반 북마크</span>는 새로운 단축 URL을 쉽게 편집하고 삭제할 수 있는 페"
+"이지로 이동시킵니다."
+
+#: admin/tools.php:22
+msgid ""
+"The <span>Instant Bookmarklets</span> will pop the short URL without leaving "
+"the page you are viewing."
+msgstr ""
+"<span>인스턴트 북마크</span>는 단축 URL을 현재 보고 있는 페이지를 벗어나지 않"
+"고, 팝업을 이용해 생성합니다."
+
+#: admin/tools.php:24
+msgid ""
+"The <span>Simple Bookmarklets</span> will generate a short URL with a random "
+"or sequential keyword."
+msgstr ""
+"<span>간편 북마크</span>는 무작위 또는 연속된 키워드를 이용해 단축 URL을 생성"
+"합니다."
+
+#: admin/tools.php:26
+msgid ""
+"The <span>Custom Keyword Bookmarklets</span> will prompt you for a custom "
+"keyword first."
+msgstr ""
+"<span>사용자 정의 키워드 북마크</span>는 사용자 정의 키워드를 먼저 입력하라"
+"는 메시지를 표시합니다."
+
+#: admin/tools.php:30
+msgid ""
+"If you want to share a description along with the link you're shortening, "
+"simply <span>select text</span> on the page you're viewing before clicking "
+"on your bookmarklet link"
+msgstr ""
+"단축 링크에 설명을 추가하여 같이 공유하려면, 추가할 설명 <span>텍스트를 선택"
+"</span>하고, 북마크 링크를 클릭하세요"
+
+#: admin/tools.php:33
+msgid "The Bookmarklets"
+msgstr "북마크"
+
+#: admin/tools.php:35 admin/tools.php:62
+msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
+msgstr ""
+"링크를 클릭하고 툴바로 드래그하세요(또는 마우스 오른쪽 버튼을 눌러 북마크하세"
+"요)"
+
+#: admin/tools.php:41
+msgid "Standard (new page)"
+msgstr "일반 (새 페이지)"
+
+#: admin/tools.php:42
+msgid "Instant (popup)"
+msgstr "인스턴트 (팝업)"
+
+#: admin/tools.php:47
+msgid "Simple"
+msgstr "간편"
+
+#: admin/tools.php:48 admin/tools.php:49 admin/tools.php:53 admin/tools.php:54
+#: admin/tools.php:68 admin/tools.php:70 admin/tools.php:72
+msgid "Drag to your toolbar!"
+msgstr "툴바로 드래그하세요!"
+
+#: admin/tools.php:48
+msgid "Shorten"
+msgstr "단축"
+
+#: admin/tools.php:49
+msgid "Instant Shorten"
+msgstr "인스턴트 단축"
+
+#: admin/tools.php:52
+msgid "Custom Keyword"
+msgstr "사용자 정의 키워드"
+
+#: admin/tools.php:53
+msgid "Custom shorten"
+msgstr "사용자 정의 단축"
+
+#: admin/tools.php:54
+msgid "Instant Custom Shorten"
+msgstr "인스턴트 사용자 정의 단축"
+
+#: admin/tools.php:59
+msgid "Social Bookmarklets"
+msgstr "소셜 북마크"
+
+#: admin/tools.php:61
+msgid "Create a short URL and share it on social networks, all in one click!"
+msgstr ""
+"한 번의 클릭으로 단축 URL을 생성하고, 소셜 네트워크에 공유할 수 있습니다!"
+
+#: admin/tools.php:64
+msgid "Shorten and share:"
+msgstr "다음으로 단축되고 공유됨:"
+
+#: admin/tools.php:68
+msgid "YOURLS &amp; Facebook"
+msgstr "YOURLS &amp; 페이스북"
+
+#: admin/tools.php:70
+msgid "YOURLS &amp; Twitter"
+msgstr "YOURLS &amp; 트위터"
+
+#: admin/tools.php:72
+msgid "YOURLS &amp; Tumblr"
+msgstr "YOURLS &amp; 텀블러"
+
+#: admin/tools.php:80
+msgid "Prefix-n-Shorten"
+msgstr "접두사-그리고-단축하기"
+
+#: admin/tools.php:82
+#, php-format
+msgid ""
+"When viewing a page, you can also prefix its full URL: just head to your "
+"browser's address bar, add \"<span>%s</span>\" to the beginning of the "
+"current URL (right before its 'http://' part) and hit enter."
+msgstr ""
+"어떤 페이지를 보고 있는 도중에 다음과 같이 전체 URL 앞에 접두사를 붙일 수 있"
+"습니다: 브라우저의 주소창의 URL 앞에 \"<span>%s</span>\"을 추가('http://' 부"
+"분의 오른쪽에)하고, Enter 키를 입력하세요."
+
+#: admin/tools.php:85
+msgid ""
+"Note: this will probably not work if your web server is running on Windows"
+msgstr ""
+"참고: 이 기능은 웹 서버가 Windows에서 구동되는 경우 작동되지 않을 것입니다"
+
+#: admin/tools.php:87
+msgid " (which seems to be the case here)"
+msgstr " (현재 시스템이 이 경우로 보입니다)"
+
+#: admin/tools.php:93
+msgid "Secure passwordless API call"
+msgstr "암호가 필요없는 안전한 API 호출"
+
+#: admin/tools.php:96
+msgid ""
+"YOURLS allows API calls the old fashioned way, using <tt>username</tt> and "
+"<tt>password</tt> parameters."
+msgstr ""
+"YOURLS는 <tt>사용자 이름</tt>과 <tt>비밀번호</tt> 파라미터를 이용한 이전 방식"
+"의 API 호출을 허용합니다."
+
+#: admin/tools.php:98
+msgid ""
+"If you're worried about sending your credentials into the wild, you can also "
+"make API calls without using your login or your password, using a secret "
+"signature token."
+msgstr ""
+"만약 인증 정보를 그대로 전송하는 것이 걱정된다면, 비밀 서명 토큰을 사용하여 "
+"로그인이나 비밀번호가 없는 API 호출을 생성할 수 있습니다."
+
+#: admin/tools.php:102
+#, php-format
+msgid "Your secret signature token: <strong><code>%s</code></strong>"
+msgstr "비밀 서명 토큰은 다음과 같습니다: <strong><code>%s</code></strong>"
+
+#: admin/tools.php:103
+msgid "(It's a secret. Keep it secret) "
+msgstr "(이것은 비밀입니다. 비밀을 유지하세요)"
+
+#: admin/tools.php:106
+msgid ""
+"This signature token can only be used with the API, not with the admin "
+"interface."
+msgstr ""
+"이 서명 토큰은 관리자 인터페이스가 아닌 API를 통해서만 사용할 수 있습니다."
+
+#: admin/tools.php:109
+msgid "Usage of the signature token"
+msgstr "서명 토큰의 사용"
+
+#: admin/tools.php:110
+msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
+msgstr ""
+"API 요청에 다음과 같이 <tt>서명</tt> 파라미터를 사용하세요. 예제는 다음과 같"
+"습니다:"
+
+#: admin/tools.php:114
+msgid "Usage of a time limited signature token"
+msgstr "시간 제한이 있는 서명 토큰의 사용"
+
+#: admin/tools.php:117 admin/tools.php:119
+msgid "actual value:"
+msgstr "실제 값:"
+
+#: admin/tools.php:122
+msgid ""
+"Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API "
+"requests. Example:"
+msgstr ""
+"이번에는 <tt>서명</tt>과 <tt>타임스탬프</tt> 파라미터를 API 요청에 사용해 보"
+"겠습니다. 예제는 다음과 같습니다:"
+
+#: admin/tools.php:124
+msgid "Actual values:"
+msgstr "실제 값:"
+
+#: admin/tools.php:126
+#, php-format
+msgid "This URL would be valid for only %s seconds"
+msgstr "이 URL은 %s초 동안만 유효합니다"
+
+#: admin/tools.php:130
+#, php-format
+msgid "See the <a href=\"%s\">API documentation</a> for more"
+msgstr "자세한 내용은 <a href=\"%s\">API 문서</a>를 참조하세요"
+
+#: admin/upgrade.php:9 admin/upgrade.php:13
+msgid "Upgrade YOURLS"
+msgstr "YOURLS 업그레이드"
+
+#: admin/upgrade.php:18
+#, php-format
+msgid "Upgrade not required. Go <a href=\"%s\">back to play</a>!"
+msgstr "업그레이드가 필요하지 않습니다. 이전으로 <a href=\"%s\">돌아가기</a>!"
+
+#: admin/upgrade.php:51
+msgid "Your current installation needs to be upgraded."
+msgstr "현재 설치본의 업그레이드가 필요합니다."
+
+#: admin/upgrade.php:52
+msgid ""
+"Please, pretty please, it is recommended that you <strong>backup</strong> "
+"your database<br/>(you should do this regularly anyway)"
+msgstr ""
+"제발, 정말로 제발, 데이터베이스의 <strong>백업</strong>을 권장합니다<br/>(반"
+"드시 주기적으로 백업해 주세요)"
+
+#: admin/upgrade.php:53
+msgid ""
+"Nothing awful <em>should</em> happen, but this doesn't mean it <em>won't</"
+"em> happen, right? ;)"
+msgstr ""
+"끔찍한 일은 <em>일어나지</em> 않아야 합니다. 하지만 이런 일이<em>일어나지 않"
+"는다</em>는 뜻은 아닙니다. 그렇죠? ;)"
+
+#: admin/upgrade.php:54
+msgid ""
+"On every step, if <span class='error'>something goes wrong</span>, you'll "
+"see a message and hopefully a way to fix."
+msgstr ""
+"각 단계에서, <span class='error'>문제가 발생한다면</span>, 메시지와 고칠 수 "
+"있는 방법을 보게 될 것입니다."
+
+#: admin/upgrade.php:55
+msgid ""
+"If everything goes too fast and you cannot read, <span class=\"success"
+"\">good for you</span>, let it go :)"
+msgstr ""
+"만약 모든 것이 빠르게 진행되고 읽을 수 없다면, <span class=\"success\">잘 되"
+"고 있는 겁니다</span>, 그냥 놔두세요 :)"
+
+#: admin/upgrade.php:56
+msgid "Once you are ready, press \"Upgrade\" !"
+msgstr "준비가 되었다면 \"업그레이드\"를 눌러주세요 !"
+
+#: admin/upgrade.php:65
+msgid "Upgrade"
+msgstr "업그레이드"
+
+#: admin/upgrade.php:77
+msgid "Your installation is now up to date ! "
+msgstr "설치본이 최신입니다! "
+
+#: admin/upgrade.php:78
+#, php-format
+msgid "Go back to <a href=\"%s\">the admin interface</a>"
+msgstr "<a href=\"%s\">관리자 인터페이스</a>로 돌아가기"
+
+#: includes/auth.php:53
+#, php-format
+msgid "Could not auto-encrypt passwords. Error was: \"%s\"."
+msgstr "암호를 자동으로 암호화하지 못했습니다. 에러는 다음과 같습니다: \"%s\"."
+
+#: includes/auth.php:55
+#, php-format
+msgid "<a href=\"%s\">Get help</a>."
+msgstr "<a href=\"%s\">도움 얻기</a>."
+
+#: includes/auth.php:57
+#, php-format
+msgid "<a href=\"%s\">Click here</a> to dismiss this message for one week."
+msgstr ""
+"이 메시지를 1주일 동안 보지 않으려면 <a href=\"%s\">여기</a>를 클릭하세요."
+
+#: includes/class-mysql.php:39
+msgid ""
+"YOURLS requires the mysql, mysqli or pdo_mysql PHP extension. No extension "
+"found. Check your server config, or contact your host."
+msgstr ""
+"YOURLS는 mysql, mysqli 또는 pdo_mysql PHP 확장을 필요로 합니다. 확장이 발견되"
+"지 않았습니다. 서버의 설정을 확인하거나 사용하는 호스팅 업체에 연락하세요."
+
+#: includes/class-mysql.php:40 includes/functions-install.php:16
+#: includes/functions.php:438 includes/functions.php:450
+msgid "Fatal error"
+msgstr "치명적인 오류"
+
+#: includes/functions-auth.php:26
+msgid "Logged out successfully"
+msgstr "성공적으로 로그아웃 되었습니다"
+
+#: includes/functions-auth.php:102
+msgid "Invalid username or password"
+msgstr "유효하지 않은 사용자 이름 또는 암호입니다"
+
+#: includes/functions-auth.php:104
+msgid "Please log in"
+msgstr "로그인하세요"
+
+#: includes/functions-html.php:142
+#, php-format
+msgid "1 query"
+msgid_plural "%s queries"
+msgstr[0] "1 질의"
+msgstr[1] "%s 질의"
+
+#: includes/functions-html.php:147
+#, php-format
+msgid "Powered by %s"
+msgstr "Powered by %s"
+
+#: includes/functions-html.php:175
+msgid "Enter the URL"
+msgstr "URL을 입력하세요"
+
+#: includes/functions-html.php:176
+msgid "Optional "
+msgstr "선택사항 "
+
+#: includes/functions-html.php:176
+msgid "Custom short URL"
+msgstr "사용자 정의 단축 URL"
+
+#: includes/functions-html.php:178
+msgid "Shorten The URL"
+msgstr "URL 단축하기"
+
+#: includes/functions-html.php:212 includes/functions-html.php:224
+#: includes/functions-html.php:629
+msgid "IP"
+msgstr "IP"
+
+#. //translators: "Search for <input field with text to search> in <select dropdown with URL, title...>"
+#: includes/functions-html.php:216
+#, php-format
+msgid "Search for %1$s in %2$s"
+msgstr "%2$s 에서 %1$s 을(를) 검색"
+
+#: includes/functions-html.php:230
+msgid "Ascending"
+msgstr "오름차순"
+
+#: includes/functions-html.php:231
+msgid "Descending"
+msgstr "내림차순"
+
+#. //translators: "Order by <criteria dropdown (date, clicks...)> in <order dropdown (Descending or Ascending)>"
+#: includes/functions-html.php:235
+#, php-format
+msgid "Order by %1$s %2$s"
+msgstr "%1$s을(를) %2$s으로 정렬"
+
+#. //translators: "Show <text field> rows"
+#: includes/functions-html.php:240
+#, php-format
+msgid "Show %s rows"
+msgstr "%s 줄 보기"
+
+#: includes/functions-html.php:245
+msgid "more"
+msgstr "보다 많이"
+
+#: includes/functions-html.php:246
+msgid "less"
+msgstr "보다 적게"
+
+#. //translators: "Show links with <more/less> than <text field> clicks"
+#: includes/functions-html.php:251
+#, php-format
+msgid "Show links with %1$s than %2$s clicks"
+msgstr "%2$s %1$s 클릭한 링크 보기"
+
+#: includes/functions-html.php:256
+msgid "before"
+msgstr "이전"
+
+#: includes/functions-html.php:257
+msgid "after"
+msgstr "이후"
+
+#: includes/functions-html.php:258
+msgid "between"
+msgstr "사이"
+
+#. //translators: "Show links created <before/after/between> <date input> <"and" if applicable> <date input if applicable>"
+#: includes/functions-html.php:265
+#, php-format
+msgid "Show links created %1$s %2$s %3$s %4$s"
+msgstr "%2$s %3$s %4$s %1$s에 생성된 링크 보기"
+
+#: includes/functions-html.php:269
+msgid "Search"
+msgstr "검색"
+
+#: includes/functions-html.php:271
+msgid "Clear"
+msgstr "지우기"
+
+#: includes/functions-html.php:291
+#, php-format
+msgid "1 page"
+msgid_plural "%s pages"
+msgstr[0] "1 페이지"
+msgstr[1] "%s 페이지"
+
+#: includes/functions-html.php:299 includes/functions-html.php:313
+msgid "Go to First Page"
+msgstr "첫 번째 페이지로 이동"
+
+#: includes/functions-html.php:299
+msgid "&laquo; First"
+msgstr "&laquo; 처음"
+
+#: includes/functions-html.php:313
+msgid "Last &raquo;"
+msgstr "마지막 &raquo;"
+
+#: includes/functions-html.php:357
+msgid "Your short link"
+msgstr "단축 링크"
+
+#: includes/functions-html.php:388
+msgid "Long link"
+msgstr "긴 링크"
+
+#: includes/functions-html.php:390 includes/functions-html.php:499
+#: includes/functions-html.php:500
+msgid "Stats"
+msgstr "통계"
+
+#: includes/functions-html.php:404
+msgid "Share with"
+msgstr "공유하기"
+
+#: includes/functions-html.php:405
+msgid "Tweet this!"
+msgstr "트윗하기"
+
+#: includes/functions-html.php:406
+msgid "Share on Facebook"
+msgstr "페이스북에 공유하기"
+
+#: includes/functions-html.php:407
+msgid "Share on Friendfeed"
+msgstr "Friendfeed에 공유하기"
+
+#: includes/functions-html.php:464
+msgid "Save"
+msgstr "저장"
+
+#: includes/functions-html.php:464
+msgid "Save new values"
+msgstr "새로운 값을 저장"
+
+#: includes/functions-html.php:464
+msgid "Cancel"
+msgstr "취소"
+
+#: includes/functions-html.php:464
+msgid "Cancel editing"
+msgstr "편집 취소"
+
+#: includes/functions-html.php:466
+msgid "Error, URL not found"
+msgstr "에러, URL이 없습니다"
+
+#: includes/functions-html.php:512 includes/functions-html.php:513
+msgid "Edit"
+msgstr "편집"
+
+#: includes/functions-html.php:519 includes/functions-html.php:520
+msgid "Delete"
+msgstr "삭제"
+
+#: includes/functions-html.php:541
+msgid "Not a common link"
+msgstr "일반적인 링크가 아닙니다"
+
+#: includes/functions-html.php:627
+msgid "Original URL"
+msgstr "원본 URL"
+
+#: includes/functions-html.php:631
+msgid "Actions"
+msgstr "작업"
+
+#: includes/functions-html.php:697
+msgid "Username"
+msgstr "사용자 이름"
+
+#: includes/functions-html.php:701
+msgid "Password"
+msgstr "암호"
+
+#: includes/functions-html.php:705
+msgid "Login"
+msgstr "로그인"
+
+#: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
+#, php-format
+msgid "Hello <strong>%s</strong>"
+msgstr "안녕하세요 <strong>%s</strong>"
+
+#: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
+msgid "Logout"
+msgstr "로그아웃"
+
+#: includes/functions-html.php:727
+msgid "Help"
+msgstr "도움말"
+
+#: includes/functions-html.php:734
+msgid "Go to the admin interface"
+msgstr "관리자 인터페이스로 이동"
+
+#: includes/functions-html.php:735
+msgid "Admin interface"
+msgstr "관리자 인터페이스"
+
+#: includes/functions-html.php:741
+msgid "Tools"
+msgstr "도구"
+
+#: includes/functions-html.php:867 includes/functions-html.php:872
+msgid "Today"
+msgstr "오늘"
+
+#: includes/functions-html.php:868 includes/functions-html.php:873
+msgid "Close"
+msgstr "닫기"
+
+#: includes/functions-html.php:889
+#, php-format
+msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
+msgstr ""
+"<a href=\"%s\">YOURLS 버전 %s</a>을(를) 사용할 수 있습니다. 업데이트 하세요!"
+
+#: includes/functions-install.php:16 includes/functions.php:438
+msgid "Incorrect DB config, or could not connect to DB"
+msgstr "잘못된 DB 구성이거나, DB에 연결할 수 없습니다 "
+
+#: includes/functions-install.php:241
+#, php-format
+msgid "Table '%s' created."
+msgstr "테이블 '%s'이(가) 생성되었습니다"
+
+#: includes/functions-install.php:243
+#, php-format
+msgid "Error creating table '%s'."
+msgstr "테이블 '%s'을(를) 생성 하는 중 오류가 발생했습니다."
+
+#: includes/functions-install.php:249
+msgid "Could not initialize options"
+msgstr "옵션을 초기화할 수 없습니다"
+
+#: includes/functions-install.php:253
+msgid "Could not insert sample short URLs"
+msgstr "샘플 단축 URL을 생성할 수 없습니다"
+
+#: includes/functions-install.php:257
+msgid "YOURLS tables successfully created."
+msgstr "YOURLS 테이블을 성공적으로 생성했습니다."
+
+#: includes/functions-install.php:259
+msgid "Error creating YOURLS tables."
+msgstr "YOURLS 테이블을 생성하는 중에 오류가 발생 했습니다."
+
+#. //translators: weekday
+#: includes/functions-l10n.php:795 includes/functions-l10n.php:805
+#: includes/functions-l10n.php:818
+msgid "Sunday"
+msgstr "일요일"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:796 includes/functions-l10n.php:806
+#: includes/functions-l10n.php:819
+msgid "Monday"
+msgstr "월요일"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:797 includes/functions-l10n.php:807
+#: includes/functions-l10n.php:820
+msgid "Tuesday"
+msgstr "화요일"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:798 includes/functions-l10n.php:808
+#: includes/functions-l10n.php:821
+msgid "Wednesday"
+msgstr "수요일"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:799 includes/functions-l10n.php:809
+#: includes/functions-l10n.php:822
+msgid "Thursday"
+msgstr "목요일"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:800 includes/functions-l10n.php:810
+#: includes/functions-l10n.php:823
+msgid "Friday"
+msgstr "금요일"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:801 includes/functions-l10n.php:811
+#: includes/functions-l10n.php:824
+msgid "Saturday"
+msgstr "토요일"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:805
+msgid "S_Sunday_initial"
+msgstr "일"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:806
+msgid "M_Monday_initial"
+msgstr "월"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:807
+msgid "T_Tuesday_initial"
+msgstr "화"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:808
+msgid "W_Wednesday_initial"
+msgstr "수"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:809
+msgid "T_Thursday_initial"
+msgstr "목"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:810
+msgid "F_Friday_initial"
+msgstr "금"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:811
+msgid "S_Saturday_initial"
+msgstr "토"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:818
+msgid "Sun"
+msgstr "일요일"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:819
+msgid "Mon"
+msgstr "월요일"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:820
+msgid "Tue"
+msgstr "화요일"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:821
+msgid "Wed"
+msgstr "수요일"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:822
+msgid "Thu"
+msgstr "목요일"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:823
+msgid "Fri"
+msgstr "금요일"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:824
+msgid "Sat"
+msgstr "토요일"
+
+#. //translators: month name
+#: includes/functions-l10n.php:827 includes/functions-l10n.php:842
+msgid "January"
+msgstr "1월"
+
+#. //translators: month name
+#: includes/functions-l10n.php:828 includes/functions-l10n.php:843
+msgid "February"
+msgstr "2월"
+
+#. //translators: month name
+#: includes/functions-l10n.php:829 includes/functions-l10n.php:844
+msgid "March"
+msgstr "3월"
+
+#. //translators: month name
+#: includes/functions-l10n.php:830 includes/functions-l10n.php:845
+msgid "April"
+msgstr "4월"
+
+#. //translators: month name
+#: includes/functions-l10n.php:831 includes/functions-l10n.php:846
+msgid "May"
+msgstr "5월"
+
+#. //translators: month name
+#: includes/functions-l10n.php:832 includes/functions-l10n.php:847
+msgid "June"
+msgstr "6월"
+
+#. //translators: month name
+#: includes/functions-l10n.php:833 includes/functions-l10n.php:848
+msgid "July"
+msgstr "7월"
+
+#. //translators: month name
+#: includes/functions-l10n.php:834 includes/functions-l10n.php:849
+msgid "August"
+msgstr "8월"
+
+#. //translators: month name
+#: includes/functions-l10n.php:835 includes/functions-l10n.php:850
+msgid "September"
+msgstr "9월"
+
+#. //translators: month name
+#: includes/functions-l10n.php:836 includes/functions-l10n.php:851
+msgid "October"
+msgstr "10월"
+
+#. //translators: month name
+#: includes/functions-l10n.php:837 includes/functions-l10n.php:852
+msgid "November"
+msgstr "11월"
+
+#. //translators: month name
+#: includes/functions-l10n.php:838 includes/functions-l10n.php:853
+msgid "December"
+msgstr "12월"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:842
+msgid "Jan_January_abbreviation"
+msgstr "1월"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:843
+msgid "Feb_February_abbreviation"
+msgstr "2월"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:844
+msgid "Mar_March_abbreviation"
+msgstr "3월"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:845
+msgid "Apr_April_abbreviation"
+msgstr "4월"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:846
+msgid "May_May_abbreviation"
+msgstr "5월"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:847
+msgid "Jun_June_abbreviation"
+msgstr "6월"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:848
+msgid "Jul_July_abbreviation"
+msgstr "7월"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:849
+msgid "Aug_August_abbreviation"
+msgstr "8월"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:850
+msgid "Sep_September_abbreviation"
+msgstr "9월"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:851
+msgid "Oct_October_abbreviation"
+msgstr "10월"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:852
+msgid "Nov_November_abbreviation"
+msgstr "11월"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:853
+msgid "Dec_December_abbreviation"
+msgstr "12월"
+
+#: includes/functions-l10n.php:860
+msgid "am"
+msgstr "오전"
+
+#: includes/functions-l10n.php:861
+msgid "pm"
+msgstr "오후"
+
+#: includes/functions-l10n.php:862
+msgid "AM"
+msgstr "오전"
+
+#: includes/functions-l10n.php:863
+msgid "PM"
+msgstr "오후"
+
+#. //translators: $thousands_sep argument for http://php.net/number_format, default is ,
+#: includes/functions-l10n.php:869
+msgid "number_format_thousands_sep"
+msgstr ","
+
+#. //translators: $dec_point argument for http://php.net/number_format, default is .
+#: includes/functions-l10n.php:873
+msgid "number_format_decimal_point"
+msgstr "."
+
+#. //translators: 'rtl' or 'ltr'. This sets the text direction for YOURLS.
+#: includes/functions-l10n.php:880
+msgid "ltr"
+msgstr "ltr"
+
+#: includes/functions-plugins.php:387
+msgid "Could not find and deactivated plugin :"
+msgid_plural "Could not find and deactivated plugins :"
+msgstr[0] "찾을 수 없거나 비활성화된 플러그인 :"
+msgstr[1] "찾을 수 없거나 비활성화된 플러그인 :"
+
+#: includes/functions-plugins.php:425
+msgid "Not a valid plugin file"
+msgstr "올바르지 않은 플러그인 파일"
+
+#: includes/functions-plugins.php:430
+msgid "Plugin already activated"
+msgstr "플러그인이 이미 활성화됨"
+
+#: includes/functions-plugins.php:438
+#, php-format
+msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
+msgstr ""
+"플러그인이 예기치 않은 출력을 생성하였습니다. 에러는 다음과 같습니다: <br/"
+"><pre>%s</pre>"
+
+#: includes/functions-plugins.php:461
+msgid "Plugin not active"
+msgstr "플러그인이 활성화되지 않음"
+
+#: includes/functions-plugins.php:541
+msgid ""
+"This page does not exist. Maybe a plugin you thought was activated is "
+"inactive?"
+msgstr "페이지가 존재하지 않습니다. 혹시 플러그인이 비활성화되어 있지 않나요?"
+
+#: includes/functions-plugins.php:541
+msgid "Invalid link"
+msgstr "유효하지 않은 링크입니다"
+
+#: includes/functions.php:201
+msgid "Missing or malformed URL"
+msgstr "없거나 잘못된 URL입니다"
+
+#: includes/functions.php:215
+msgid "URL is a short URL"
+msgstr "URL이 단축 URL입니다"
+
+#: includes/functions.php:247
+#, php-format
+msgid "Short URL %s already exists in database or is reserved"
+msgstr "단축 URL %s(은)는 이미 있거나 예약되었습니다"
+
+#. //translators: eg "http://someurl/ added to DB"
+#: includes/functions.php:253 includes/functions.php:275
+#, php-format
+msgid "%s added to database"
+msgstr "%s이(가) 데이터베이스에 추가되었습니다"
+
+#: includes/functions.php:283
+msgid "Error saving url to database"
+msgstr "URL을 데이터베이스에 저장하는 도중 에러가 발생했습니다"
+
+#. //translators: eg "http://someurl/ already exists"
+#: includes/functions.php:300
+#, php-format
+msgid "%s already exists in database"
+msgstr "%s은(는) 이미 데이터베이스에 있습니다"
+
+#: includes/functions.php:355
+msgid "Link updated in database"
+msgstr "링크가 업데이트 되었습니다"
+
+#. //translators: "Error updating http://someurl/ (Shorturl: http://sho.rt/blah)"
+#: includes/functions.php:358
+#, php-format
+msgid "Error updating %s (Short URL: %s)"
+msgstr "%s(단축 URL: %s)을(를) 업데이트하는 중 오류가 발생했습니다 "
+
+#: includes/functions.php:364
+msgid "URL or keyword already exists in database"
+msgstr "URL 또는 키워드가 데이터베이스에 이미 존재합니다"
+
+#: includes/functions.php:761
+#, php-format
+msgid ""
+"if you are not redirected after 10 seconds, please <a href=\"%s\">click "
+"here</a>"
+msgstr ""
+"10초 후에 자동으로 이동하지 않는 경우에는 <a href=\"%s\">여기</a>를 누르세요"
+
+#: includes/functions.php:769
+#, php-format
+msgid "Please <a href=\"%s\">click here</a>"
+msgstr "<a href=\"%s\">여기</a>를 누르세요."
+
+#: includes/functions.php:1394
+msgid "Too many URLs added too fast. Slow down please."
+msgstr "짧은 시간에 너무 많은 URL이 추가되었습니다. 천천히 해주세요."
+
+#: includes/functions.php:1394
+msgid "Forbidden"
+msgstr "금지됨"
+
+#: includes/functions.php:1673
+msgid "Unauthorized action or expired link"
+msgstr "허용되지 않은 작업이나 만료된 링크입니다"
+
+#: includes/functions.php:1673
+msgid "Error"
+msgstr "에러"
+
+#: includes/functions.php:2064
+msgid "Service temporarily unavailable"
+msgstr "서비스를 일시적으로 사용할 수 없습니다"
+
+#: includes/functions.php:2065
+msgid "Our service is currently undergoing scheduled maintenance."
+msgstr "서비스가 현재 예정된 작업 중입니다."
+
+#: includes/functions.php:2066
+msgid ""
+"Things should not last very long, thank you for your patience and please "
+"excuse the inconvenience"
+msgstr ""
+"서비스가 일시적으로 사용할 수 없습니다. 복구 작업을 진행 중입니다. 양해해 주"
+"셔서 감사 드리며 불편을 끼쳐 드려 죄송합니다."
+
+#: includes/functions.php:2186
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+msgstr ""
+"%1$s는 %2$s 버전 이후로 <strong>더 이상 사용되지 않습니다</strong>! %3$s를 대"
+"신 사용하세요."
+
+#: includes/functions.php:2188
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
+"available."
+msgstr ""
+"%1$s는 %2$s 버전 이후로 <strong>더 이상 사용되지 않으며</strong> 대체가 없습"
+"니다."
+
+#: user/plugins/sample-toolbar/plugin.php:62
+msgid "day"
+msgid_plural "days"
+msgstr[0] "일"
+msgstr[1] "일"
+
+#: user/plugins/sample-toolbar/plugin.php:67
+msgid "view"
+msgid_plural "views"
+msgstr[0] "뷰"
+msgstr[1] "뷰"
