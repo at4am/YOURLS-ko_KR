@@ -5,7 +5,7 @@
 
 YOURLS를 한국어화 하려면 다음 단계를 진행해주세요.
 
-1. YOURLS가 설치되어 있는 디렉토리에 있는 설정파일인 `/user/config.php` 파일을 열어 아래와 같이 언어설정 부분을 수정하세요.
+### 1. YOURLS가 설치되어 있는 디렉토리에 있는 설정파일인 `/user/config.php` 파일을 열어 아래와 같이 언어설정 부분을 수정하세요.
 ```php
 /** YOURLS language
  ** Change this setting to use a translation file for your language, instead of the default English.
@@ -14,7 +14,7 @@ YOURLS를 한국어화 하려면 다음 단계를 진행해주세요.
 define( 'YOURLS_LANG', '' ); //다음 부분을 define( 'YOURLS_LANG', 'ko_KR' );로 변경해 주세요
 ```
 
-2. `/user/languages` 디렉토리에 번역 파일인 `ko_KR.po`와 `ko_KR.mo`를 옮겨주세요.
+### 2. `/user/languages` 디렉토리에 번역 파일인 `ko_KR.po`와 `ko_KR.mo`를 옮겨주세요.
 
 ## 라이센스
 
